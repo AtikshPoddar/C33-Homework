@@ -184,8 +184,8 @@ function handlePlayerArrowCollision() {
 
       /**Update the code here so that computer life 
       reduces if player's arrow hits the target***/
-      ComputerArcherlife -= 1;
-      computer.reduceLife(ComputerArcherLife);
+      computerArcherLife -= 1;
+      computer.reduceLife(computerArcherLife);
 
       if (computerArcherLife <= 0) {
         computerArcher.collapse = true;
